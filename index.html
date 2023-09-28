@@ -119,8 +119,8 @@
   </section>
 
   <!-- nav tag section -->
-  <section class="sticky top-0 ">
-    <div class="flex justify-center text-lg bg-opacity-90 bg-white ">
+  <section class="sticky top-0 z-50">
+    <div class="flex justify-center text-lg bg-opacity-95 bg-white ">
       <a href="#tableOfContents" class="p-8 hover:bg-blue-100 w-1/6">
         <div class="flex flex-col items-center">
           <p class="text-gray-600 text-sm">01</p>
@@ -145,7 +145,7 @@
           <p class="font-semibold">Pricing</p>
         </div>
       </a>
-      <a href="" class="p-8 hover:bg-blue-100 w-1/6">
+      <a href="#author" class="p-8 hover:bg-blue-100 w-1/6">
         <div class="flex flex-col items-center">
           <p class="text-gray-600 text-sm">05</p>
           <p class="font-semibold">Author</p>
@@ -158,7 +158,7 @@
   <!-- Table of contents section  -->
   <section id="tableOfContents" class="scroll-mt-28 pt-32">
     <div class="lg:w-[800px] mx-auto">
-      <div class="border-2 border-primary-400 rounded-3xl w-fit px-3 py-2 flex items-center text-primary-400 text-lg">
+      <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
         <div class="text-sm">
           01
         </div>
@@ -257,7 +257,7 @@
   <!-- screencasts section  -->
   <section id="screencasts" class="scroll-mt-28 pt-32">
     <div class="lg:w-[805px] mx-auto ">
-      <div class="border-2 border-primary-400 rounded-3xl w-fit px-3 py-2 flex items-center text-primary-400 text-lg">
+      <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
         <div class="text-sm">02</div>
         <div class="h-3.5 w-[1px] bg-primary-200 mx-3"></div>
         <div class="font-semibold">Screencasts</div>
@@ -374,10 +374,10 @@
 
   </section>
 
-  <!-- Resources  -->
+  <!-- Resources section -->
   <section id="resources" class="scroll-mt-28 pt-32">
     <div class="lg:w-[805px] mx-auto ">
-      <div class="border-2 border-primary-400 rounded-3xl w-fit px-3 py-2 flex items-center text-primary-400 text-lg">
+      <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
         <div class="text-sm">03</div>
         <div class="h-3.5 w-[1px] bg-primary-200 mx-3"></div>
         <div class="font-semibold">Resources</div>
@@ -627,10 +627,10 @@
     </div>
   </section>
 
-  <!-- Pricing  -->
+  <!-- Pricing  section-->
   <section id="pricing" class="scroll-mt-28 pt-32">
     <div class="lg:w-[805px] mx-auto ">
-      <div class="border-2 border-primary-400 rounded-3xl w-fit px-3 py-2 flex items-center text-primary-400 text-lg">
+      <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
         <div class="text-sm">04</div>
         <div class="h-3.5 w-[1px] bg-primary-200 mx-3"></div>
         <div class="font-semibold ">Pricing</div>
@@ -747,10 +747,11 @@
         </p>
       </div>
       <!-- some kind words boxes  -->
-      <div class="w-full">
-        <div class="w-1/4">
-          <div class="p-6 rounded-xl shadow-md border">
-            <p class="text-xl mb-6 before:content-['“'] after:content-['”'] ">
+      <div class="w-full flex gap-x-8 justify-center ">
+        <!-- pricing first colum  -->
+        <div class="w-[30%] flex flex-col gap-y-8">
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed ">
               Mira’s teaching style is second to none. Everything was easy to follow every step of the way.
             </p>
             <div class="flex">
@@ -758,22 +759,198 @@
                 src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-3.04d4fbac.png&w=48&q=75"
                 alt="" class="rounded-full ">
               <div class="ml-3">
-                <p class="text-lg font-semibold">Antonio Littel</p>
+                <p class="text-lg font-semibold text-black">Antonio Littel</p>
                 <p class=" text-base text-slate-600">Frontend Developer</p>
               </div>
             </div>
           </div>
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
+              Even though I was excited to learn, I was pessimistic that I wouldn’t actually ever get good enough to
+              design my own icons. I was wrong — this book is all I needed.
+            </p>
+            <div class="flex">
+              <img
+                src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.60373f01.png&w=48&q=75"
+                alt="" class="rounded-full ">
+              <div class="ml-3">
+                <p class="text-lg font-semibold text-black">Lynn Nolan</p>
+                <p class=" text-base">Growth Marketer</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 hidden">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
+              I’ve been employed as a professional icon designer for years and still learned tons of new tricks that
+              have made my work even better
+            </p>
+            <div class="flex">
+              <img
+                src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-9.0887821b.png&w=48&q=75"
+                alt="" class="rounded-full ">
+              <div class="ml-3">
+                <p class="text-lg font-semibold text-black">Krista Prosacco</p>
+                <p class=" text-base">Professional Designer</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="w-1/4"></div>
-        <div class="w-1/4"></div>
+        <!-- pricing second colum  -->
+        <div class="w-[30%] flex flex-col gap-y-8">
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
+              I run an ecommerce store selling rare vintage gummy bears and could never find a good gummy bear icon. Now
+              I can design my own in minutes.
+            </p>
+            <div class="flex">
+              <img
+                src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-7.74b6c9eb.png&w=48&q=75"
+                alt="" class="rounded-full ">
+              <div class="ml-3">
+                <p class="text-lg font-semibold text-black">Cameron Considine</p>
+                <p class=" text-base text-slate-600">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
+              The complete package is worth it for the weekly teardown videos alone. I’ve learned so much watching Mira
+              take apart other icons and recreate them from scratch.
+            </p>
+            <div class="flex">
+              <img
+                src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-11.6af33989.png&w=48&q=75"
+                alt="" class="rounded-full ">
+              <div class="ml-3">
+                <p class="text-lg font-semibold text-black">
+                  Regina Wisoky</p>
+                <p class=" text-base">Design Student</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 hidden">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
+              I didn’t expect to find a lot of value in the community but now I’m in there for at least an hour every
+              day picking up tips from other designers.
+            </p>
+            <div class="flex">
+              <img
+                src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-8.a41e6511.png&w=48&q=75"
+                alt="" class="rounded-full ">
+              <div class="ml-3">
+                <p class="text-lg font-semibold text-black">
+                  Vernon Cummerata</p>
+                <p class=" text-base">UI Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- pricing third colum  -->
+        <div class="w-[30%] flex flex-col gap-y-8">
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
+              I couldn’t believe how fast Mira moved in Figma compared to my own workflow. I’m designing icons more
+              accurately in half the time with the shortcuts I learned from her videos.
+            </p>
+            <div class="flex">
+              <img
+                src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-5.9d5329f1.png&w=48&q=75"
+                alt="" class="rounded-full ">
+              <div class="ml-3">
+                <p class="text-lg font-semibold text-black">
+                  Steven Hackett</p>
+                <p class=" text-base text-slate-600">Bootcamp Instructor</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
+              I never thought I would enjoy designing icons but using the ideas in this book, it’s become a great way
+              for me to relax while still being creative.
+            </p>
+            <div class="flex">
+              <img
+                src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-10.8ffba813.png&w=48&q=75"
+                alt="" class="rounded-full ">
+              <div class="ml-3">
+                <p class="text-lg font-semibold text-black">Carla Schoen</p>
+                <p class=" text-base">Startup Founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 hidden">
+            <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
+              All I can say is wow — this is easily the best icon design resource I’ve ever encountered.
+            </p>
+            <div class="flex">
+              <img
+                src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-6.b8de0302.png&w=48&q=75"
+                alt="" class="rounded-full ">
+              <div class="ml-3">
+                <p class="text-lg font-semibold text-black">
+                  Leah Kiehn</p>
+                <p class=" text-base">Creative Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full flex items-center mt-10">
+        <button type="button" class=" mx-auto tracking-tighter text-xl">Read more testimonials<i
+            class="fa-solid fa-arrow-down-long ml-3 text-lg"></i>
+        </button>
       </div>
 
 
     </div>
 
   </section>
+  <!-- Author section  -->
+  <section id="author" class="scroll-mt-28 pt-32 ">
+    <div style="background-image: url(./img/author-bg.png);" class="flex justify-center pb-28">
+      <div class="bg-gray-50 max-w-screen-lg px-16 py-28 rounded-[80px] relative z-0">
+        <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
+          <div class="text-sm">05</div>
+          <div class="h-3.5 w-[1px] bg-primary-200 mx-3"></div>
+          <div class="font-semibold">Author</div>
+        </div>
+        <div class="my-6">
+          <h1 class="text-6xl font-bold  text-primary-500 ">
+            Mira Lindehoff –
+          </h1>
+          <h1 class="text-6xl font-bold">
+            Hey there, I’m the author behind ‘Everything Starts as a Square’.
+          </h1>
+        </div>
+        <p class="text-lg text-slate-600 my-5">
+          I’ve been designing icons professionally for over a decade and have worked with dozens of the biggest brands
+          to create custom sets for their products. I’m an accomplished conference speaker, and have been teaching icon
+          design workshops every month for the last three years. I’ve worked with designers of all skill levels and
+          honed my way of teaching to really click for anyone who has the itch to start designing their own icons.
+        </p>
+        <div class="mt-10 text-primary-500">
+          <a href="./index.html" class="text-lg flex items-center">
+            <i class="fa-brands fa-twitter mr-3 text-3xl"></i>
+            <p class="">Follow on Twitter</p>
+          </a>
+        </div>
+        <div class="absolute top-0 right-0 -translate-y-1/4 -z-10">
+          <img
+            src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fauthor.962d41ee.png&w=384&q=75"
+            alt="" class="rounded-full border border-white w-10/12">
+        </div>
+      </div>
+    </div>
+    <div class="text-base text-slate-600 mb-32">
+      <p class="text-center">
+        Copyright © 2023 Lindehoff Design, LLC
+      </p>
+      <p class="text-center">
+        All rights reserved.
+      </p>
+    </div>
+  </section>
 
-  <div class="h-[1000px]"></div>
   <script type="module" src="./main.js"></script>
 </body>
 

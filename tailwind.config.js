@@ -3,6 +3,7 @@ export default {
   content: ["**.html",],
   theme: {
     extend: {
+      display: ['group-focus'],
       colors: {
         'primary': {
           100: "#d3e0fb",
@@ -26,7 +27,7 @@ export default {
           800: "#185666",
           900: "#0c2b33"
         },
-        
+
       }
 
 
