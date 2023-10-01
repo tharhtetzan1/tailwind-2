@@ -10,21 +10,22 @@
 <body>
   <!-- home section -->
   <section>
-    <div class="lg:flex lg:flex-row md:flex-col md:bg-gray-200 lg:bg-white ">
+    <div class="lg:flex lg:flex-row md:flex-col lg:bg-white md:bg-gray-200 max-md:bg-gray-200">
       <!-- home logo -->
-      <div class="relative lg:w-1/4 lg:h-[890px] rounded-ee-[100px] md:w-1/2 md:h-[480px] "
+      <div
+        class="relative lg:w-1/4 lg:h-[890px] rounded-ee-[100px] md:w-1/2 md:h-[480px] max-md:h-[480px] max-md:w-1/2 "
         style="background-image: repeating-linear-gradient(90deg, rgba(252,252,252, 0.1) 0px, rgba(252,252,252, 0.1) 1px,transparent 1px, transparent 104px),repeating-linear-gradient(0deg, rgba(252,252,252, 0.1) 0px, rgba(252,252,252, 0.1) 1px,transparent 1px, transparent 104px),repeating-linear-gradient(0deg, rgba(82,82,82, 0) 0px, rgba(82,82,82, 0) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(90deg, rgba(82,82,82, 0) 0px, rgba(82,82,82, 0) 1px,transparent 1px, transparent 13px),linear-gradient(90deg, rgb(37,99,235),rgb(37,99,235));">
-        <div class="absolute lg:w-[130%] lg:top-[15%] lg:left-[50%] md:w-[70%] md:top-[15%] md:left-[70%] ">
+        <div
+          class="absolute lg:w-[130%] lg:top-[15%] lg:left-[50%] md:w-[70%] md:top-[15%] md:left-[70%] max-md:w-[80%] max-md:top-[10%] max-md:left-[70%]">
           <img src="./img/cover.png" alt="" class="">
         </div>
       </div>
       <!-- home text  -->
-      <div class="lg:w-3/4 md:flex-col md:bg-white ">
+      <div class="lg:w-3/4 md:flex-col bg-white ">
         <!-- home first box  -->
-        <div class="bg-gray-200 lg:h-1/3 lg:flex lg:items-end lg:justify-end md:py-20 ">
-          <div class="lg:w-3/4 lg:flex lg:justify-start md:flex md:justify-center md:mt-10">
-            <div
-              class=" w-[450px] flex flex-col lg:items-start lg:gap-y-2 lg:pl-20 lg:py-5 md:items-center md:justify-center md:px-5">
+        <div class="bg-gray-200 py-20 lg:h-1/3 lg:flex lg:items-end lg:justify-end">
+          <div class="lg:w-3/4 lg:flex lg:justify-start flex justify-center md:mt-10 ">
+            <div class=" w-[450px] flex flex-col items-center lg:items-start lg:gap-y-2 lg:pl-20 lg:py-5 md:px-5">
               <div class="text-primary-500 ">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -32,14 +33,13 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
-              <div class="font-normal text-lg text-gray-900 lg:text-start md:text-center ">
+              <div class="font-normal text-lg text-center text-gray-900 lg:text-start  ">
                 “This method of designing icons is genius. I wish I had known this method a lot sooner.”
               </div>
               <div class="flex text-base pt-3 ">
                 <div
                   class="text-primary-500 relative ml-8 font-medium before:px-3 before:py-[0.8px] before:bg-primary-400 before:absolute before:top-3 before:-left-7">
-                  Stacey
-                  Solomon</div>
+                  Stacey Solomon</div>
                 <div class="text-gray-700">, Founder at Retail Park</div>
               </div>
             </div>
@@ -48,8 +48,8 @@
 
         <!-- second box -->
         <div class=" lg:flex lg:justify-end my-20">
-          <div class=" lg:w-3/4 lg:px-20 lg:py-16 md:flex md:justify-center">
-            <div class="flex flex-col gap-6 md:w-[640px] ">
+          <div class=" lg:w-3/4 lg:px-20 lg:py-16 flex justify-center">
+            <div class="flex flex-col gap-6 md:w-[640px] max-md:px-8">
               <h1 class="text-6xl font-bold ">Get lost in the world of icon design.</h1>
               <p class="text-2xl text-slate-800">A book and video course that teaches you how to design your own icons
                 from scratch.</p>
@@ -71,7 +71,7 @@
 
   <!--home text section  -->
   <section class="my-20">
-    <div class="lg:w-[800px] mx-auto flex flex-col gap-3 py-5 md:w-2/3">
+    <div class="lg:w-[800px] mx-auto flex flex-col gap-3 py-5 md:w-11/12 max-md:px-5">
       <h1 class="text-3xl font-semibold py-5">
         “Everything Starts as a Square” is a book and video course that teaches you a simple method to designing icons
         that anyone can learn.
@@ -112,7 +112,7 @@
         that can hold their own against any of the sets you can find online.
       </p>
 
-      <a href="./index.html" class=" pt-5 text-base font-semibold text-primary-400">Get two free chapters straight to
+      <a href="./index.html" class=" pt-5 text-lg font-semibold text-primary-400">Get two free chapters straight to
         your inbox →</a>
     </div>
   </section>
@@ -123,7 +123,8 @@
       <a href="#tableOfContents" class="py-8 hover:bg-blue-100 w-1/6 max-xl:w-1/5">
         <div class="flex flex-col items-center ">
           <p class="text-gray-600 text-sm">01</p>
-          <p class="font-semibold">Table of contents</p>
+          <p class="font-semibold"><span class="max-md:hidden">Table of contents</span><span
+              class="hidden max-md:block">Contents</span></p>
         </div>
       </a>
       <a href="#screencasts" class="py-8 hover:bg-blue-100 w-1/6 max-xl:w-1/5">
@@ -156,7 +157,7 @@
 
   <!-- Table of contents section  -->
   <section id="tableOfContents" class="scroll-mt-28 pt-32 ">
-    <div class="mx-auto lg:w-[800px]  md:w-2/3 ">
+    <div class="mx-auto lg:w-[800px] md:w-11/12 max-md:px-5">
       <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
         <div class="text-sm">
           01
@@ -255,7 +256,7 @@
 
   <!-- screencasts section  -->
   <section id="screencasts" class="scroll-mt-28 pt-32">
-    <div class="mx-auto lg:w-[805px] md:w-2/3 ">
+    <div class="mx-auto lg:w-[805px] md:w-11/12 max-md:px-5">
       <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
         <div class="text-sm">02</div>
         <div class="h-3.5 w-[1px] bg-primary-200 mx-3"></div>
@@ -272,8 +273,8 @@
       </div>
     </div>
     <!-- color box  -->
-    <div class="flex justify-center my-16 mx-auto md:flex-wrap md:w-2/3">
-      <div class="lg:w-1/4 -z-10 md:w-1/2 px-3">
+    <div class="flex justify-center my-16 mx-auto md:flex-wrap md:w-11/12 max-md:flex-wrap">
+      <div class="lg:w-1/4 -z-10 md:w-1/2 px-3 max-md:w-1/2">
         <div
           style="background-image:conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)"
           class="rounded-2xl p-10 relative">
@@ -290,7 +291,7 @@
         </div>
       </div>
 
-      <div class="lg:w-1/4 -z-10 md:w-1/2 px-3">
+      <div class="lg:w-1/4 -z-10 md:w-1/2 px-3 max-md:w-1/2">
         <div
           style="background-image:conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)"
           class="rounded-2xl p-10 relative">
@@ -307,7 +308,7 @@
         </div>
       </div>
 
-      <div class="lg:w-1/4 -z-10 md:w-1/2 px-3">
+      <div class="lg:w-1/4 -z-10 md:w-1/2 px-3 max-md:w-1/2">
         <div
           style="background-image:conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)"
           class="rounded-2xl p-10 relative">
@@ -324,7 +325,7 @@
         </div>
       </div>
 
-      <div class="lg:w-1/4 -z-10 md:w-1/2 px-3">
+      <div class="lg:w-1/4 -z-10 md:w-1/2 px-3 max-md:w-1/2">
         <div
           style="background-image:conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)"
           class="rounded-2xl p-10 relative">
@@ -375,7 +376,7 @@
 
   <!-- Resources section -->
   <section id="resources" class="scroll-mt-28 pt-32">
-    <div class="lg:w-[805px] mx-auto md:w-2/3">
+    <div class="lg:w-[805px] mx-auto md:w-11/12 max-md:w-11/12">
       <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
         <div class="text-sm">03</div>
         <div class="h-3.5 w-[1px] bg-primary-200 mx-3"></div>
@@ -392,13 +393,14 @@
       </div>
     </div>
     <!-- box  -->
-    <div class="flex justify-center my-16 mx-auto lg:flex-row lg:w-[1536px] md:w-3/4 md:flex-col md:gap-y-8">
-      <div class="lg:w-[30%] lg:flex-col flex px-12 lg:border-r md:w-full max-lg:border-none">
+    <div class="flex justify-center my-16 mx-auto w-10/12 flex-col gap-y-10 lg:flex-row lg:w-full">
+      <div
+        class="flex lg:w-[30%] lg:flex-col lg:items-start px-5 xl:border-r md:w-full max-xl:border-none max-md:flex-col">
         <div
-          class="rounded-2xl flex justify-center p-3 lg:w-full md:w-1/2 bg-gradient-to-r from-slate-950 from-10% via-slate-800 via-50% to-slate-950 to-90%">
+          class="rounded-2xl flex justify-center p-3 lg:w-full md:w-1/2 md:mx-10 bg-gradient-to-r from-slate-950 from-10% via-slate-800 via-50% to-slate-950 to-90%">
           <img src="https://primer.tailwindui.com/_next/static/media/figma.0d78130b.svg" alt="" class="">
         </div>
-        <div class="flex flex-col  gap-y-3 my-10 lg:w-full  lg:items-center md:w-1/2 md:items-start md:ml-8">
+        <div class="flex flex-col gap-y-3 my-10 lg:w-full lg:items-center md:w-1/2 md:items-start ">
           <p class="text-lg font-semibold">Figma icon templates</p>
           <p class="text-gray-600 text-base lg:text-center md:text-left ">Pefectly structured templates for quickly
             designing new icons
@@ -406,13 +408,13 @@
         </div>
       </div>
 
-      <div class="lg:w-[30%] lg:flex-col flex px-12 lg:border-r md:w-full max-lg:border-none">
+      <div class=" flex lg:w-[30%] lg:flex-col px-5 xl:border-r md:w-full max-xl:border-none max-md:flex-col">
         <div
           style="background-image: url('https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabstract-background.807725df.png&w=640&q=75'); background-size: cover; background-position: center;"
-          class="rounded-2xl flex justify-center p-3 lg:w-full md:w-1/2">
+          class="rounded-2xl flex justify-center p-3 lg:w-full md:w-1/2 md:mx-10">
           <img src="https://primer.tailwindui.com/_next/static/media/video-player.e8496657.svg" alt="" class="h-34 ">
         </div>
-        <div class="flex flex-col gap-y-3 my-10 lg:items-center lg:w-full md:w-1/2 md:items-start md:ml-8">
+        <div class="flex flex-col gap-y-3 my-10 lg:items-center lg:w-full md:w-1/2 md:items-start ">
           <p class="text-lg font-semibold">Weekly icon teardowns</p>
           <p class="text-gray-600 text-base lg:text-center md:text-left">Weekly videos where we dissect and recreate
             beautiful icons
@@ -421,11 +423,11 @@
         </div>
       </div>
 
-      <div class="lg:w-[30%] lg:flex-col flex px-12  md:w-full max-lg:border-none">
-        <div class="rounded-2xl flex justify-center p-3 lg:w-full md:w-1/2 bg-primary-400">
+      <div class=" flex lg:w-[30%] lg:flex-col px-5 md:w-full max-lg:border-none max-md:flex-col">
+        <div class="rounded-2xl flex justify-center p-3 lg:w-full md:w-1/2 md:mx-10 bg-primary-400">
           <img src="https://primer.tailwindui.com/_next/static/media/discord.ad5bcc98.svg" alt="" class="h-34">
         </div>
-        <div class="flex flex-col gap-y-3 my-10 lg:items-center lg:w-full md:w-1/2 md:items-start md:ml-8">
+        <div class="flex flex-col gap-y-3 my-10 lg:items-center lg:w-full md:w-1/2 md:items-start ">
           <p class="text-lg font-semibold">Community of icon designers</p>
           <p class="text-gray-600 text-base lg:text-center md:text-left">A private Discord server where you can get help
             and give
@@ -434,10 +436,11 @@
       </div>
     </div>
 
-    <div class=" bg-primary-500 py-36 relative overflow-hidden -z-10">
-      <div class="max-w-[1024px] flex mx-auto  text-white text-lg lg:items-end lg:flex-row md:w-2/3 md:flex-col md:items-start">
-        <div class="lg:w-1/2 md:w-full ">
-          <div class="mb-5 md:w-2/3">
+    <div class=" bg-primary-500 py-36 relative overflow-hidden -z-10 max-md:py-24">
+      <div
+        class="max-w-[1024px] flex mx-auto text-white text-lg lg:items-end lg:flex-row md:w-11/12 md:flex-col md:items-start max-md:flex-col max-md:w-11/12">
+        <div class="lg:w-1/2 md:w-2/3 ">
+          <div class="mb-5 md:w-11/12">
             <h1 class="text-6xl font-bold">
               Get the free sample chapters
             </h1>
@@ -447,23 +450,26 @@
           </div>
         </div>
 
-        <div class="lg:w-1/2 md:w-full md:mt-14">
+        <div class="lg:w-1/2 md:w-2/3 md:mt-14 max-md:mt-10">
           <div class="mb-5 font-semibold">
             Get two free chapters straight to your inbox →
           </div>
-          <div class="relative">
+          <div class="relative max-md:w-full">
             <input id="email" type="email" required placeholder="Email address"
               class="w-full p-4 rounded-xl border border-slate-300 bg-transparent outline-none focus:bg-white focus:bg-opacity-20">
             <label for="email"
-              class="absolute top-2 right-5 border border-white bg-slate-50 text-primary-500 font-semibold px-3 py-2 rounded-md">Get
+              class="absolute top-2 right-5 border border-white bg-slate-50 text-primary-500 font-semibold px-3 py-2 rounded-md max-md:hidden">Get
               free chapters</label>
+            <button for="email" class="w-full border border-slate-300 rounded-lg px-4 py-2 font-bold text-primary-500 bg-slate-100 mt-4 hidden max-md:block">
+              Get free chapters</button>
           </div>
         </div>
       </div>
       <!-- svg  -->
       <!-- first row  -->
 
-      <div class="flex flex-col gap-2 absolute top-0 right-0 lg:-translate-y-6 lg:-translate-x-3 md:-right-28 md:translate-x-2">
+      <div
+        class="flex flex-col gap-2 absolute top-0 lg:right-0 lg:-translate-y-6 lg:-translate-x-3 md:-right-28 md:translate-x-2 max-md:-translate-y-2/3  max-md:left-0">
         <div class="flex gap-4 flex-row-reverse">
           <div class="p-1.5 bg-primary-400">
             <div class="w-8 h-8 bg-primary-500 rounded-full">
@@ -589,14 +595,14 @@
           <div class="p-2.5 bg-primary-200 rounded-full ">
             <div class="w-6 h-6 bg-primary-500"></div>
           </div>
-      </div>
+        </div>
 
-    </div>
+      </div>
   </section>
 
   <!-- Pricing  section-->
   <section id="pricing" class="scroll-mt-28 pt-32 ">
-    <div class="mx-auto lg:w-[805px] md:w-2/3 ">
+    <div class="mx-auto lg:w-[805px] md:w-11/12 max-md:w-11/12">
       <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
         <div class="text-sm">04</div>
         <div class="h-3.5 w-[1px] bg-primary-200 mx-3"></div>
@@ -614,9 +620,9 @@
     </div>
     <!-- box  -->
     <div class="mt-20">
-      <div class="max-w-[1024px] flex mx-auto bg-slate-50 p-20 rounded-[80px] md:w-full">
+      <div class="max-w-[1024px] flex mx-auto bg-slate-50 lg:p-20 md:p-20 rounded-[80px] md:w-full max-md:flex-col">
         <!-- get started 1  -->
-        <div class="w-1/2 flex flex-col gap-5 px-7 py-14">
+        <div class="w-1/2 flex flex-col gap-5 px-7 py-14 max-md:w-full">
           <div class="font-semibold flex">
             <p class="text-3xl align-top -mt-2 mr-1 text-slate-400">
               $
@@ -651,7 +657,7 @@
 
         </div>
         <!-- get started 2  -->
-        <div class="w-1/2 flex flex-col gap-5 px-7 py-14 text-slate-100 bg-opacity-10 rounded-[60px]"
+        <div class="w-1/2 flex flex-col gap-5 px-7 py-14 text-slate-100 bg-opacity-10 rounded-[60px] max-md:w-full max-md:rounded-none"
           style="background-image: url('./img/box-bg.png');">
           <div class="font-semibold flex">
             <p class="text-3xl align-top -mt-2 mr-1 text-slate-400">
@@ -697,9 +703,9 @@
 
         </div>
       </div>
-
     </div>
-    <div class="mt-36 md:mt-28 md:w-2/3 md:mx-auto">
+
+    <div class="mt-36 md:mt-28 md:w-11/12 md:mx-auto max-md:w-11/12 max-md:mx-auto">
       <div class="flex flex-col items-center mx-auto max-w-[800px] mb-20">
         <h1 class="text-3xl font-bold py-5">
           Some kind words from early customers...
@@ -710,9 +716,9 @@
         </p>
       </div>
       <!-- some kind words boxes  -->
-      <div class="w-full flex gap-8  justify-center lg:flex-row md:flex-col ">
+      <div class="w-full flex gap-8 justify-center lg:flex-row md:flex-col max-md:flex-col">
         <!-- pricing first colum  -->
-        <div class="w-[30%] flex flex-col gap-y-8 md:w-full">
+        <div class="lg:w-1/3 flex flex-col gap-y-8 w-full">
           <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
             <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed ">
               Mira’s teaching style is second to none. Everything was easy to follow every step of the way.
@@ -727,7 +733,7 @@
               </div>
             </div>
           </div>
-          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 lg:block md:hidden ">
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 lg:block hidden ">
             <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
               Even though I was excited to learn, I was pessimistic that I wouldn’t actually ever get good enough to
               design my own icons. I was wrong — this book is all I needed.
@@ -759,7 +765,7 @@
           </div>
         </div>
         <!-- pricing second colum  -->
-        <div class="w-[30%] flex flex-col gap-y-8 md:w-full">
+        <div class="lg:w-1/3 flex flex-col gap-y-8 w-full">
           <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
             <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
               I run an ecommerce store selling rare vintage gummy bears and could never find a good gummy bear icon. Now
@@ -775,7 +781,7 @@
               </div>
             </div>
           </div>
-          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 lg:block md:hidden">
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 lg:block hidden">
             <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
               The complete package is worth it for the weekly teardown videos alone. I’ve learned so much watching Mira
               take apart other icons and recreate them from scratch.
@@ -809,7 +815,7 @@
           </div>
         </div>
         <!-- pricing third colum  -->
-        <div class="w-[30%] flex flex-col gap-y-8 md:w-full">
+        <div class="lg:w-1/3 flex flex-col gap-y-8 w-full">
           <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700">
             <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
               I couldn’t believe how fast Mira moved in Figma compared to my own workflow. I’m designing icons more
@@ -826,7 +832,7 @@
               </div>
             </div>
           </div>
-          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 lg:block md:hidden">
+          <div class="p-8 rounded-[40px] shadow-md border border-slate-200 text-slate-700 lg:block hidden">
             <p class="text-xl mb-8 before:content-['“'] after:content-['”'] leading-relaxed">
               I never thought I would enjoy designing icons but using the ideas in this book, it’s become a great way
               for me to relax while still being creative.
@@ -868,10 +874,11 @@
     </div>
 
   </section>
+
   <!-- Author section  -->
   <section id="author" class="scroll-mt-28 pt-32 mt-16 md:w-11/12 md:mx-auto">
-    <div style="background-image: url(./img/author-bg.png);" class="flex justify-center pb-28">
-      <div class="bg-gray-50 max-w-screen-lg px-16 py-28 rounded-[80px] relative z-0">
+    <div style="background-image: url(./img/author-bg.png);" class="flex justify-center pb-28 max-md:w-11/12 max-md:mx-auto">
+      <div class="bg-gray-50 max-w-screen-lg px-16 py-28 rounded-[80px] relative z-0  max-md:px-5 max-md:w-full">
         <div class="border-2 border-primary-400 rounded-3xl w-fit px-4 py-2 flex items-center text-primary-400 text-lg">
           <div class="text-sm">05</div>
           <div class="h-3.5 w-[1px] bg-primary-200 mx-3"></div>
@@ -897,10 +904,10 @@
             <p class="">Follow on Twitter</p>
           </a>
         </div>
-        <div class="absolute top-0 right-0 -translate-y-1/4 -z-10">
+        <div class="absolute lg:top-0 lg:right-0 lg:-translate-y-1/3 lg:-translate-x-1/4 w-4/12 md:top-0 md:right-0 md:-translate-y-1/3 md:-translate-x-1/4  -z-10 max-md:right-1/3 max-md:top-0 max-md:-translate-y-1/3">
           <img
             src="https://primer.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fauthor.962d41ee.png&w=384&q=75"
-            alt="" class="rounded-full border border-white w-10/12">
+            alt="" class="rounded-full border border-white w-full">
         </div>
       </div>
     </div>
